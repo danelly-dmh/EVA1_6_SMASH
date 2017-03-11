@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Rosado" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2EFEF7</item>
+        <item name="colorPrimaryDark">#D0A9F5</item>
+        <item name="colorAccent">#FF0080</item>
+    </style>
+    <style name="Jardin" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#04B431</item>
+        <item name="colorPrimaryDark">#088A4B</item>
+        <item name="colorAccent">#DBA901</item>
+    </style>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="Nombre:"
+        android:key="NOMBRE"
+        android:summary="Introducir el nombre"/>
+    <EditTextPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="edit_text_preference_1"
+        android:summary="Introducir el nombre"
+        android:title="Nombre:" />
+    <PreferenceScreen
+        android:title="Mas opciones:">
+        <ListPreference
+            android:defaultValue="1"
+            android:title="Tamaño de letra:"
+            android:key="SIZE"
+            android:summary="Cambiar tamaño de letra"
+            android:entries="@array/lang"
+            android:entryValues="@array/lang1"
+             />
+        <ListPreference
+            android:defaultValue="1"
+            android:title="Seleccione su tema:"
+            android:key="TEMA"
+            android:summary="Elegir tema"
+            android:entries="@array/themes"
+            android:entryValues="@array/themes2"
+             />
+    </PreferenceScreen>
+</PreferenceScreen>
